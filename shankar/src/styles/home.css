@@ -162,7 +162,7 @@
 @media (max-width: 550px) {
   .home {
     top: 20vh;
-    width: 80vh;
+    width: 100%;
     margin-left: 10vh;
     justify-content: center;
     align-items: center;
