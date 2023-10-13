@@ -8,7 +8,9 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <Box>
+    <Box sx={{
+      width:"100%"
+    }}>
       <Navbar />
       <Home />
       <About />
