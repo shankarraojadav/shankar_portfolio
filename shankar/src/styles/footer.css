@@ -1,0 +1,42 @@
+
+
+.footer {
+    position: relative;
+    top: 40vh;
+    height: auto;
+    background-color: #2d2e32;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5vh;
+   
+}
+
+.container_footer .footer_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10vh;
+}
+
+.container_footer a {
+    margin-left: 20vh;
+}
+
+
+@media (max-width: 550px ) {
+    .footer {
+        width: 88vh;
+    }
+
+    .container_footer {
+        width: 75vh;
+    }
+}
