@@ -11,10 +11,10 @@ export default function App() {
     <Box>
       <Navbar />
       <Home />
-      {/* <About />
+      <About />
       <Projects />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </Box>
   );
 }
