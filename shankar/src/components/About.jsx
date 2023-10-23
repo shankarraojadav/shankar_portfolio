@@ -3,7 +3,7 @@ import "../styles/about.css";
 
 export default function About() {
   return (
-    <Box className="about" id="about">
+    <Box className="about" id="about" width={window.innerWidth -40}>
       <Box className="container">
         <Box className="left">
           <img

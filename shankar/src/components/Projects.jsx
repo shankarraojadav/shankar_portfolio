@@ -5,7 +5,7 @@ import { data } from "./data";
 
 export default function Projects() {
   return (
-    <Box className="projects" id="projects">
+    <Box className="projects" id="projects" width={window.innerWidth -40}>
       <Box className="container">
       <Box className="top">
         <Typography className="title">PORTFOLIO</Typography>

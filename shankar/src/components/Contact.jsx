@@ -3,7 +3,7 @@ import "../styles/contact.css";
 
 export default function Contact() {
   return (
-    <Box className="contact" id="contact">
+    <Box className="contact" id="contact" width={window.innerWidth -40}>
       <Box className="container">
         <Box className="container_items">
           <Typography className="title">CONTACT</Typography>

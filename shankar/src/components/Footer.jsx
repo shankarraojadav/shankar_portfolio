@@ -4,7 +4,7 @@ import { GitHub } from "@mui/icons-material";
 
 export default function Footer() {
   return (
-    <Box className="footer">
+    <Box className="footer" width={window.innerWidth -40}>
       <Box>
         <Box className="container_footer">
           <Typography className="footer_title">

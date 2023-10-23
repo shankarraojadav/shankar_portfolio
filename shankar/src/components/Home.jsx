@@ -5,7 +5,7 @@ import "../styles/home.css";
 
 export default function Home() {
   return (
-    <Box id="home" className="home">
+    <Box id="home" className="home" width={window.innerWidth -40}>
       <Box className="content-container">
         <Box className="left">
           <Box>

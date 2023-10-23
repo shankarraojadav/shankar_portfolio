@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar sx={{height:"10vh", display:"flex", justifyContent:"center",}} color="inherit" >
+    <AppBar width={window.innerWidth -40} sx={{height:"10vh", display:"flex", justifyContent:"center",}} color="inherit" >
       <Toolbar>
         <nav>
           {/* mobile */}
